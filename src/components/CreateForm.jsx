@@ -38,12 +38,12 @@ const CreateForm = () => {
             value={input}
             onChange={handleInput}
             onKeyUp={handleKeyUp}
-            className="border border-gray-950 py-2 px-4 rounded-l grow"
+            className="border border-gray-950 py-2 pl-3 rounded-l grow"
             required
          />
          <button
             onClick={handleAdd}
-            className="border border-gray-950 py-2 px-4 rounded-r bg-gray-950 text-gray-50 disabled:opacity-80"
+            className="border border-gray-950 p-2 rounded-r bg-gray-950 text-gray-50 disabled:opacity-80"
          >
             Save
          </button>
