@@ -43,7 +43,7 @@ const CreateForm = () => {
          />
          <button
             onClick={handleAdd}
-            className="border border-gray-950 p-2 rounded-r bg-gray-950 text-gray-50 disabled:opacity-80"
+            className="w-16 border border-gray-950 py-2 rounded-r bg-gray-950 text-gray-50 disabled:opacity-80"
          >
             Save
          </button>
